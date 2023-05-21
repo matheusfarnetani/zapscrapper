@@ -223,9 +223,6 @@ for entries in data:
     forms_link.send_keys(data[forms_counter]["link"])
 
     forms_submit = driver.find_element(By.XPATH, '//*[@id="mG61Hd"]/div[2]/div/div[3]/div[1]/div[1]/div')
-
-
-
     forms_submit.click()
 
     time.sleep(1)
